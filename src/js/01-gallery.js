@@ -27,5 +27,3 @@ const modalGalleryOptions = {
   captionDelay: 250
 }
 const modalGallery = new SimpleLightbox(".gallery a", modalGalleryOptions );
-
-galleryContainerRef.addEventListener("click", onImageClick);
